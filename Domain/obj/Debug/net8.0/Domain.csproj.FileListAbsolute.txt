@@ -1,0 +1,12 @@
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/bin/Debug/net8.0/Domain.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/bin/Debug/net8.0/Domain.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/Domain.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/Domain/obj/Debug/net8.0/ref/Domain.dll

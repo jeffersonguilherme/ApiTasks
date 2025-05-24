@@ -10,6 +10,14 @@
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Application.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Domain.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Infra.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Services.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Application.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Infra.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Services.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/Domain.pdb
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.csproj.AssemblyReference.cache
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.GeneratedMSBuildEditorConfig.editorconfig
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.AssemblyInfoInputs.cache
@@ -17,6 +25,7 @@
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.csproj.CoreCompileInputs.cache
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cs
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.MvcApplicationPartsAssemblyInfo.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/API.sourcelink.json
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/staticwebassets.build.json
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/staticwebassets.development.json
 /home/jefferson/Documentos/GitHub/ApiTasks/API/obj/Debug/net8.0/staticwebassets/msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props

@@ -151,7 +151,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/jefferson/Documentos/GitHub/ApiTasks/Domain/Domain.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/ApiTasks/Domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -209,7 +213,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/jefferson/Documentos/GitHub/ApiTasks/Domain/Domain.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/ApiTasks/Domain/Domain.csproj"
+              },
+              "/home/jefferson/Documentos/GitHub/ApiTasks/Infra/Infra.csproj": {
+                "projectPath": "/home/jefferson/Documentos/GitHub/ApiTasks/Infra/Infra.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

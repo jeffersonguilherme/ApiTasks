@@ -1,0 +1,16 @@
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Infra.deps.json
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Infra.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Infra.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Domain.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Domain.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.csproj.AssemblyReference.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.AssemblyInfoInputs.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.AssemblyInfo.cs
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.csproj.CoreCompileInputs.cache
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.sourcelink.json
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.csproj.Up2Date
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/refint/Infra.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.pdb
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/ref/Infra.dll
