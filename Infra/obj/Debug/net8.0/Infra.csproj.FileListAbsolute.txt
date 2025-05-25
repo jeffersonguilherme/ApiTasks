@@ -14,3 +14,5 @@
 /home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/refint/Infra.dll
 /home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.pdb
 /home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/ref/Infra.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/bin/Debug/net8.0/Infra.runtimeconfig.json
+/home/jefferson/Documentos/GitHub/ApiTasks/Infra/obj/Debug/net8.0/Infra.genruntimeconfig.cache
