@@ -1,0 +1,41 @@
+using Application.UserCQ.Commands;
+using Application.UserCQ.ViewModels;
+using Domain.Entity;
+using Infra.Persistence;
+using MediatR;
+
+namespace Application.UserCQ.Handlers;
+
+public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<CreateUserCommand, UserInforViewModel>
+{
+    private readonly TasksDbContext _tasksDbContext = context;
+    public async Task<UserInforViewModel> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+    {
+        var user = new User()
+        {
+            Name = request.Name,
+            Surname = request.Surname,
+            Email = request.Email,
+            PasswordHash = request.Password,
+            Username = request.Username,
+            RefreshToken = Guid.NewGuid().ToString(),
+            RefreshTokenExpirationTime = DateTime.Now.AddDays(5)
+
+        };
+
+        _tasksDbContext.Users.Add(user);
+        _tasksDbContext.SaveChanges();
+
+        var userInfo = new UserInforViewModel()
+        {
+            Name = user.Name,
+            Surname = user.Username,
+            Email = user.Email,
+            RefreshToken = user.RefreshToken,
+            RefreshTokenExpirationTime = user.RefreshTokenExpirationTime,
+            TokenJWT = Guid.NewGuid().ToString()
+
+        };
+        return userInfo;
+    }
+}
