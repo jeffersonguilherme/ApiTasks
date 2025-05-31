@@ -105,8 +105,8 @@ namespace Infra.Migrations
                     b.Property<string>("RefreshToken")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RefreshTokenExpirationTime")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("RefreshTokenExpirationTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Surname")
                         .IsRequired()

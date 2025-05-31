@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infra.Migrations
 {
     [DbContext(typeof(TasksDbContext))]
-    [Migration("20250525002124_InicialMigration")]
-    partial class InicialMigration
+    [Migration("20250531011841_CorrecaoRefreshTokenExpiration")]
+    partial class CorrecaoRefreshTokenExpiration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -108,8 +108,8 @@ namespace Infra.Migrations
                     b.Property<string>("RefreshToken")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("RefreshTokenExpirationTime")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("RefreshTokenExpirationTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Surname")
                         .IsRequired()

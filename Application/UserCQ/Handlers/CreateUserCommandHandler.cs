@@ -29,8 +29,9 @@ public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<
         var userInfo = new UserInforViewModel()
         {
             Name = user.Name,
-            Surname = user.Username,
+            Surname = user.Surname,
             Email = user.Email,
+            Username = user.Username,
             RefreshToken = user.RefreshToken,
             RefreshTokenExpirationTime = user.RefreshTokenExpirationTime,
             TokenJWT = Guid.NewGuid().ToString()
