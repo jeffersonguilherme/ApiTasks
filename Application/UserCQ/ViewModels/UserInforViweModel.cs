@@ -1,6 +1,6 @@
 namespace Application.UserCQ.ViewModels;
 
-public class UserInforViewModel
+public record UserInforViewModel
 {
     public string? Name { get; set; }
     public string? Surname { get; set; }

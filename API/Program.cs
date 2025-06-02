@@ -1,3 +1,4 @@
+using Application.CardCQ;
 using Application.UserCQ.Commands;
 using Infra.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -11,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<TasksDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblies(typeof(CreateUserCommand).Assembly));
-
+builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblies(typeof(CreateCardCommand).Assembly));
 var app = builder.Build();
 
 app.UseSwagger();

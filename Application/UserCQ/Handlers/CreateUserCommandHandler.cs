@@ -1,3 +1,4 @@
+using Application.Response;
 using Application.UserCQ.Commands;
 using Application.UserCQ.ViewModels;
 using Domain.Entity;
@@ -6,10 +7,10 @@ using MediatR;
 
 namespace Application.UserCQ.Handlers;
 
-public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<CreateUserCommand, UserInforViewModel>
+public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<CreateUserCommand, ResponseBase<UserInforViewModel?>>
 {
     private readonly TasksDbContext _tasksDbContext = context;
-    public async Task<UserInforViewModel> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+    public async Task<ResponseBase<UserInforViewModel?>> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         var user = new User()
         {
@@ -26,8 +27,11 @@ public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<
         _tasksDbContext.Users.Add(user);
         _tasksDbContext.SaveChanges();
 
-        var userInfo = new UserInforViewModel()
+        return new ResponseBase<UserInforViewModel?>
         {
+            ResponseInfo = null,
+            Value = new()
+            {
             Name = user.Name,
             Surname = user.Surname,
             Email = user.Email,
@@ -35,8 +39,8 @@ public class CreateUserCommandHandler(TasksDbContext context) : IRequestHandler<
             RefreshToken = user.RefreshToken,
             RefreshTokenExpirationTime = user.RefreshTokenExpirationTime,
             TokenJWT = Guid.NewGuid().ToString()
-
+            }
         };
-        return userInfo;
+
     }
 }
