@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RvF3t9+vfx4=",
+  "dgSpecHash": "j5qx8jdxORM=",
   "success": true,
   "projectFilePath": "/home/jefferson/Documentos/GitHub/ApiTasks/Application/Application.csproj",
   "expectedPackageFiles": [
     "/home/jefferson/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/jefferson/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/home/jefferson/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
     "/home/jefferson/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
     "/home/jefferson/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/jefferson/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

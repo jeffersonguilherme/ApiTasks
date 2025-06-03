@@ -1,14 +1,15 @@
 using Application.CardCQ.ViewModels;
+using Application.Response;
 using Domain.Entity;
 using Infra.Persistence;
 using MediatR;
 
 namespace Application.CardCQ.Handlers;
 
-public class CreateCardCommandHandler(TasksDbContext context) : IRequestHandler<CreateCardCommand, CarInfoViewModel>
+public class CreateCardCommandHandler(TasksDbContext context) : IRequestHandler<CreateCardCommand, ResponseBase<CarInfoViewModel?>>
 {
     private readonly TasksDbContext _tasksDbContext = context;
-    public async Task<CarInfoViewModel> Handle(CreateCardCommand request, CancellationToken cancellationToken)
+    public async Task<ResponseBase<CarInfoViewModel>> Handle(CreateCardCommand request, CancellationToken cancellationToken)
     {
         var card = new Card()
         {
@@ -21,13 +22,16 @@ public class CreateCardCommandHandler(TasksDbContext context) : IRequestHandler<
         _tasksDbContext.Cards.Add(card);
         _tasksDbContext.SaveChanges();
 
-        var cardInfo = new CarInfoViewModel()
+        return new ResponseBase<CarInfoViewModel>
         {
+            ResponseInfo = null,
+            Value = new()
+            {
             Title = card.Title,
             Description = card.Description,
             Deadline = card.Deadline,
             Status = card.Status
+            }
         };
-        return cardInfo;
     }
 }
