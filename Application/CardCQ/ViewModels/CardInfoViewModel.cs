@@ -1,3 +1,4 @@
+using Domain.Entity;
 using Domain.Enum;
 
 namespace Application.CardCQ.ViewModels;
