@@ -10,6 +10,6 @@ public class CreateUserCommandValidator :AbstractValidator<CreateUserCommand>
         RuleFor(x => x.Email).NotEmpty().WithMessage("O campo do email não pode ser vazio")
                             .EmailAddress().WithMessage("O campo email não é valido");
 
-        RuleFor(x => x.Username).MinimumLength(1).WithMessage("O campo username não pode estar vazio");                            
+        RuleFor(x => x.Username).NotEmpty().WithMessage("O campo username não pode estar vazio");                            
     }
 }
