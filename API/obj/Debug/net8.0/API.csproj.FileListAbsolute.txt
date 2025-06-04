@@ -178,3 +178,6 @@
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/MediatR.dll
 /home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/FluentValidation.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/home/jefferson/Documentos/GitHub/ApiTasks/API/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
