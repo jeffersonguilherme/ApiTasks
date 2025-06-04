@@ -1,25 +1,12 @@
-using Application.CardCQ;
-using Application.UserCQ.Commands;
-using Infra.Persistence;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using FluentValidation;
-using Application.UserCQ.Validators;
-using FluentValidation.AspNetCore;
+using API;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<TasksDbContext>
-(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblies(typeof(CreateUserCommand).Assembly));
-builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblies(typeof(CreateCardCommand).Assembly));
+builder.AddServices();
+builder.AddDatabase();
+builder.AddValidations();
 
-builder.Services.AddValidatorsFromAssemblyContaining<CreateUserCommandValidator>();
-builder.Services.AddFluentValidationAutoValidation();
 
 var app = builder.Build();
 
